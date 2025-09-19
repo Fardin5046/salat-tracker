@@ -1,0 +1,17 @@
+{
+  "name": "Salat Tracker",
+  "short_name": "Salat",
+  "description": "Track your daily Salah (Fajr, Zuhr, Asr, Maghrib, Isha) and see weekly/monthly stats.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0c4a6e",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
