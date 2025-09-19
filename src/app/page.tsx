@@ -25,10 +25,9 @@ export default function Home() {
                 <img src="/icon.svg" alt="crescent" className="h-6 w-6 opacity-80" />
                 <span>Salat Tracker • صلاة</span>
               </h1>
-              <p className="mt-2 text-sm sm:text-base text-muted-foreground">
-                Track your daily Salah (Fajr, Zuhr, Asr, Maghrib, Isha). Get gentle reminders, export/import your data,
-                see weekly and monthly progress, and review missed prayers to stay consistent.
-              </p>
+{/*               <p className="mt-2 text-sm sm:text-base text-muted-foreground">
+               
+              </p> */}
               <div className="mt-4 flex items-center gap-3">
                 <Button asChild>
                   <a href="/" aria-label="Refresh app">Open Today</a>
@@ -50,11 +49,11 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="mx-auto max-w-5xl px-4 pb-8 text-center text-xs text-muted-foreground">
+{/*       <footer className="mx-auto max-w-5xl px-4 pb-8 text-center text-xs text-muted-foreground">
         <p>
           Made with intention. Install to Home Screen for the best experience (PWA).
         </p>
-      </footer>
+      </footer> */}
     </div>
-  );
+  );    
 }
